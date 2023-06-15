@@ -1,0 +1,747 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+      /* початок */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+  
+      /* Header Styles */
+      .header {
+        position: relative;
+        background-color: #e6f0ff;
+        min-height: 600px;
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 20px;
+      }
+  
+
+  
+
+      .header {
+        background-color: #e6f0ff;
+        background-image: url("./assets-project/image/medium-shot-woman-holding-ukranian-flag%201.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom 20px;
+        min-height: 600px;
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 20px;
+      }
+
+
+
+
+.header__navbar {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__item {
+  margin-left: 10px;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.intro {
+  padding: 80px 40px 100px;
+}
+
+.intro__title {
+position: absolute;
+width: 698px;
+height: 264px;
+left: 100px;
+top: 200px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 93px;
+line-height: 94.9%;
+
+
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #9AD2DE;
+}
+
+.intro__subtitle {
+position: absolute;
+width: 484px;
+height: 48px;
+left: 101px;
+top: 528px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+
+
+
+color: #000000;
+}
+.nav-button {
+  display: inline-block;
+  background-color: #0066ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.nav-button:hover {
+  background-color: #00becc;
+}
+.intro__title {
+  display: flex;
+  flex-direction: column;
+  color: #00aaff;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.word-break {
+  display: block;
+}
+
+.main__title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+ 
+  
+}
+
+h3.main__title {
+  width: 784px;
+  height: 72px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 auto;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
+}
+
+h2.main__title {
+  width: 740px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto; 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h4.main__title {
+  width: 588px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #73A6B1;
+  margin: 0 auto; 
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+h3.main__article-title {
+  width: 452px;
+  height: 55px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
+}
+
+h4.main__article-subtitle {
+  width: 322px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+h4.main__article-event {
+  width: 235px;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 10px; /* Відстань між h4 і p */
+ 
+}
+
+p.main__article-time {
+  width: 87px;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #3D8C9D;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 10px; /* Відстань між p і наступним елементом */
+  
+}
+
+.main__article-info > * + * {
+  margin-top: 50px; /* Більша відстань між окремими елементами */
+}
+
+
+.main__article-img {
+  flex: 1;
+  background-image: url("./assets-project/image/Сцена 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1/1;
+  
+}
+.main__content {
+  padding: 40px;
+}
+
+.main__article {
+  display: flex;
+}
+/*2 blok */
+h4.main__title2 {
+  width: 588px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #73A6B1;
+  margin: 0 auto; 
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+h3.main__article-title2 {
+  width: 452px;
+  height: 55px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h4.main__article-subtitle2 {
+  width: 322px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+h4.main__article-event2 {
+  width: 235px;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 10px; /* Відстань між h4 і p */
+}
+
+p.main__article-time2 {
+  width: 87px;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #3D8C9D;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 10px; /* Відстань між p і наступним елементом */
+}
+
+.main__article-info > * + * {
+  margin-top: 50px; /* Більша відстань між окремими елементами */
+}
+
+
+.main__article-img2 {
+  flex: 1;
+  background-image: url("./assets-project/image/52.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1/1;
+}
+.main__content {
+  padding: 40px;
+}
+
+.main__article {
+  display: flex;
+}
+/* 2 blok*/
+.main__article-info {
+  flex: 1;
+}
+.main__title1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h3.main__title1 {
+  width: 784px;
+  height: 72px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 auto;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h2.main__title1 {
+  width: 740px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto; 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h4.main__title1 {
+  width: 588px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #73A6B1;
+  margin: 0 auto; 
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+h3.main__article-title1 {
+  width: 452px;
+  height: 55px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h4.main__article-subtitle1 {
+  width: 322px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+h4.main__article-event1 {
+  width: 235px;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 10px; /* Відстань між h4 і p */
+}
+
+p.main__article-time1 {
+  width: 87px;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #3D8C9D;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 10px; /* Відстань між p і наступним елементом */
+}
+
+.main__article-info > * + * {
+  margin-top: 80px; /* Більша відстань між окремими елементами */
+}
+
+
+.main__article-img1 {
+  flex: 1;
+  background-image: url("./assets-project/image/діти.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1/1;
+}
+.main__content {
+  padding: 40px;
+}
+
+.main__article {
+  display: flex;
+}
+
+.main__article-info {
+  flex: 1;
+}
+
+
+.main__content {
+  position: relative; /* Додала позиціонування relative */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Додала позиціонування absolute бо не йде*/
+  left: 50%;
+  transform: translateX(-50%); /* тут зсунула контейнер вліво на половину ширини */
+  top: 800px; /* Встановлюємо відстань від верхнього краю */
+}
+
+.button-learn-more {
+  width: 300px;
+  height: 50px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #7AE5FD;
+  border-radius: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*nastupnyi blok*/
+.section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.section__background {
+  flex: 1;
+  height: 800px;
+  background-image: url("./assets-project/image/Фон.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.section__background1 {
+  background-image: url("./assets-project/image/прямокутник.png");
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 300px;
+ 
+  z-index: 0;
+}
+
+
+.section__content {
+  padding: 20px;
+  text-align: left;
+  color: #000000;
+  z-index: 2;
+}
+
+.section__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-top: 400px;
+  position: relative; /* Додала позиціонування */
+  z-index: 3; /* Збільшила значення z-index, щоб текст був над фоном */
+}
+
+
+.section__image1 {
+  position: absolute;
+  top: -50px;
+  right: 400px;
+}
+
+.section__image1 img {
+  width: 100px;
+  height: auto;
+}
+.section__image2 {
+  position: absolute;
+  top: 350px;
+  right: 400px;
+  z-index: 4;
+}
+
+.section__image2 img {
+  width: 100px;
+  height: auto;
+}
+/* наступний блок*/
+.section {
+  position: relative;
+}
+
+.section__content1 {
+  position: absolute;
+  bottom: -600px; /* сунула вручну  значення bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+ 
+
+}
+
+.section_title1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.section_subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: lightblue;
+  margin-bottom: 50px;
+}
+
+.section_title2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 120%;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 50;
+}
+
+/* наступний блок */
+.donation {
+  position: absolute;
+  bottom: -900px; /* щоб опустити донизу */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+.donation__numbers {
+ 
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px; /* підняла вгору */
+}
+
+.donation__numbers span:not(:last-child)::after {
+  content: "|";
+  margin: 0 10px;
+  color: lightblue;
+}
+
+
+
+.donation__button {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0099cc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 50px; /* підняла вгору */
+}
+.donation__button:hover {
+  background-color: lightblue;
+}
+
+/* футер в процесі просто чорновик */
+.footer {
+  background-color: lightpink;
+  padding: 20px;
+  text-align: center;
+
+}
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.phone-numbers__title {
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.phone-numbers__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.phone-numbers__image1,
+.phone-numbers__image2 {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.phone-numbers__image1 img,
+.phone-numbers__image2 img {
+  width: 50px;
+  height: 50px;
+}
+
+.phone-numbers__text {
+  flex: 1 1 auto;
+}
+
+
